@@ -22,6 +22,8 @@ N is an integer within the range [0..100,000];
 the elements of A are all distinct;
 each element of array A is an integer within the range [1..(N + 1)].
 '''
+#commit1
+#commit2
 
 def solution(A):
     # write your code in Python 3.6
@@ -29,6 +31,7 @@ def solution(A):
     N = N + 1
     totalSum = int(N*(N+1)/2)
     computedSum = 0
+    
     for val in A:
         computedSum += val
     return totalSum - computedSum
